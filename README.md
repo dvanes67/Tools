@@ -13,8 +13,10 @@ add "enablePerTenantExtensionCop": false to .github/AL-Go-Settings
         }
 ```
 #### Github won't stop asking me to sign in (from VSCode)
+```
 git remote set-url origin https://dvanes67@github.com/<organization>/<repo>.git
-and it will.
+```
+and it will stop.
 
 #### Getting a QA (sandbox) secret
 New-BcAuthContext -includeDeviceLogin | New-ALGoAuthContext | Set-Clipboard
